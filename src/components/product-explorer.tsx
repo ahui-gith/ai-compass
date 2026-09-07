@@ -22,7 +22,9 @@ export function ProductExplorer() {
         <CategoryFilter active={category} onSelect={setCategory} />
       </div>
       {filtered.length === 0 ? (
-        <p className="py-12 text-center text-zinc-500">没有找到匹配的产品。</p>
+        <p className="py-12 text-center text-zinc-500 dark:text-zinc-400">
+          没有找到匹配的产品。
+        </p>
       ) : (
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {filtered.map((product) => (
