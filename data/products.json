@@ -1,0 +1,122 @@
+[
+  {
+    "slug": "chatgpt",
+    "name": "ChatGPT",
+    "logo": "https://openai.com/favicon.ico",
+    "category": "llm",
+    "tags": ["chatbot", "assistant", "multimodal"],
+    "description": "OpenAI 出品的通用对话助手与多模态大模型。",
+    "url": "https://chat.openai.com",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "claude",
+    "name": "Claude",
+    "logo": "https://claude.ai/favicon.ico",
+    "category": "llm",
+    "tags": ["chatbot", "coding", "assistant"],
+    "description": "Anthropic 出品的对话与编程助手。",
+    "url": "https://claude.ai",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "github-copilot",
+    "name": "GitHub Copilot",
+    "logo": "https://github.com/favicon.ico",
+    "category": "coding",
+    "tags": ["code-completion", "ide"],
+    "description": "GitHub 出品的 AI 编程助手。",
+    "url": "https://github.com/features/copilot",
+    "pricing": "paid",
+    "featured": true,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "cursor",
+    "name": "Cursor",
+    "logo": "https://cursor.com/favicon.ico",
+    "category": "coding",
+    "tags": ["ide", "ai-editor"],
+    "description": "AI 原生的代码编辑器。",
+    "url": "https://cursor.com",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "midjourney",
+    "name": "Midjourney",
+    "logo": "https://www.midjourney.com/favicon.ico",
+    "category": "image",
+    "tags": ["image-generation"],
+    "description": "AI 图像生成工具。",
+    "url": "https://www.midjourney.com",
+    "pricing": "paid",
+    "featured": false,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "stable-diffusion",
+    "name": "Stable Diffusion",
+    "logo": "https://stability.ai/favicon.ico",
+    "category": "image",
+    "tags": ["image-generation", "open-source"],
+    "description": "开源的 AI 图像生成模型。",
+    "url": "https://stability.ai",
+    "pricing": "free",
+    "featured": false,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "logo": "https://runwayml.com/favicon.ico",
+    "category": "video",
+    "tags": ["video-generation", "editing"],
+    "description": "AI 视频生成与编辑工具。",
+    "url": "https://runwayml.com",
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "elevenlabs",
+    "name": "ElevenLabs",
+    "logo": "https://elevenlabs.io/favicon.ico",
+    "category": "audio",
+    "tags": ["tts", "voice"],
+    "description": "AI 语音合成与语音克隆。",
+    "url": "https://elevenlabs.io",
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "notion-ai",
+    "name": "Notion AI",
+    "logo": "https://www.notion.so/favicon.ico",
+    "category": "office",
+    "tags": ["writing", "notes"],
+    "description": "Notion 内置的 AI 写作与协作助手。",
+    "url": "https://www.notion.so/product/ai",
+    "pricing": "paid",
+    "featured": false,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "auto-gpt",
+    "name": "AutoGPT",
+    "logo": "https://agpt.co/favicon.ico",
+    "category": "agent",
+    "tags": ["autonomous", "agent"],
+    "description": "自主 AI 智能体框架。",
+    "url": "https://agpt.co",
+    "pricing": "free",
+    "featured": false,
+    "addedAt": "2026-09-01"
+  }
+]
