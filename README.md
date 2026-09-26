@@ -13,6 +13,7 @@
 - **关键词搜索**：按名称 / 简介 / 标签实时检索
 - **详情页**：每个产品独立静态页，独立 `<title>` 与描述
 - **官网跳转**：一键直达产品官网（新标签页）
+- **详情页多入口**：可配置网页版、软件下载等按钮；未配置时保留官网跳转
 - **深色模式**：自动跟随系统
 - **响应式**：移动端优先，1 / 2 / 3 列自适应
 
@@ -99,6 +100,17 @@ npm run build
 | `featured` | boolean | 是否首页精选 |
 | `addedAt` | string | 收录日期（可选） |
 
+详情页需要多个入口时，在产品中添加可选的 `links` 数组，按钮按数组顺序展示：
+
+```json
+"links": [
+  { "label": "使用网页版", "url": "https://app.example.com" },
+  { "label": "软件下载", "url": "https://example.com/download" }
+]
+```
+
+每项填写按钮文案 `label` 和 HTTPS 地址 `url`。省略 `links` 或设为空数组时，仍使用产品的 `url` 显示“访问官网”。非空列表会替代默认按钮；需要官网入口时也将其加入列表。下载按钮跳转官方页面或安装包地址，不强制触发下载。
+
 ## ☁️ 部署（Vercel + 自定义域名）
 
 1. 将代码推送到 GitHub（`origin`）的 `main` 分支
@@ -126,3 +138,4 @@ git push gitee main    # 推 Gitee
 - [技术规范](specs/SPEC.md)
 - [架构设计](specs/ARCHITECTURE.md)
 - [数据模型与数据访问](specs/API.md)
+- [产品数据核实来源](specs/DATA-SOURCES.md)（30 款，核实于 2026-09-26）

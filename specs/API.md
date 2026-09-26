@@ -13,15 +13,29 @@
 | `slug` | string | ✅ | 唯一标识，kebab-case，如 `chat-gpt` |
 | `name` | string | ✅ | 产品名称 |
 | `logo` | string | ✅ | logo 地址（`/logos/xxx.svg` 或外部 URL） |
-| `category` | string | ✅ | 分类 slug（见 1.3） |
+| `category` | string | ✅ | 分类 slug（见 1.4） |
 | `tags` | string[] | | 标签数组 |
 | `description` | string | ✅ | 一句话简介（≤ 80 字） |
 | `url` | string | ✅ | 官网链接，须为 `https://` |
+| `links` | ProductLink[] | | 详情页入口列表；缺省或空数组时显示 `url` 对应的“访问官网” |
 | `pricing` | enum | ✅ | `free` \| `freemium` \| `paid` |
 | `featured` | boolean | | 是否精选，默认 `false` |
 | `addedAt` | string | | 收录日期，ISO `YYYY-MM-DD` |
 
-### 1.2 示例数据
+### 1.2 详情页入口（ProductLink）
+
+每个入口包含 `label`（非空按钮文案）与 `url`（`https://` 地址）。数组顺序即按钮顺序，可配置网页版、官方下载页、应用商店等入口。配置非空 `links` 后详情页展示这些入口；如需官网按钮，将官网也加入列表。首页卡片仍跳转产品详情页。
+
+```json
+"links": [
+  { "label": "使用网页版", "url": "https://app.example.com" },
+  { "label": "软件下载", "url": "https://example.com/download" }
+]
+```
+
+下载入口为普通外链，不强制浏览器下载文件。
+
+### 1.3 示例数据
 
 ```json
 {
@@ -38,7 +52,7 @@
 }
 ```
 
-### 1.3 Category（分类）
+### 1.4 Category（分类）
 
 | slug | 展示名 |
 |---|---|

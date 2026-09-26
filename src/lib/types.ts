@@ -1,6 +1,12 @@
 // 产品定价
 export type Pricing = "free" | "freemium" | "paid";
 
+// 详情页入口（网页版、下载页等）
+export interface ProductLink {
+  label: string;
+  url: string;
+}
+
 // 产品
 export interface Product {
   slug: string;
@@ -10,6 +16,7 @@ export interface Product {
   tags: string[];
   description: string;
   url: string;
+  links?: ProductLink[];
   pricing: Pricing;
   featured: boolean;
   addedAt?: string;

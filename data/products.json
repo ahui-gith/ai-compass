@@ -2,11 +2,25 @@
   {
     "slug": "chatgpt",
     "name": "ChatGPT",
-    "logo": "https://openai.com/favicon.ico",
+    "logo": "https://chatgpt.com/favicon.ico",
     "category": "llm",
-    "tags": ["chatbot", "assistant", "multimodal"],
-    "description": "OpenAI 出品的通用对话助手与多模态大模型。",
-    "url": "https://chat.openai.com",
+    "tags": [
+      "对话",
+      "多模态",
+      "写作"
+    ],
+    "description": "支持对话问答、写作、图片理解与文件分析的通用 AI 助手。",
+    "url": "https://chatgpt.com/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://chatgpt.com/"
+      },
+      {
+        "label": "下载客户端",
+        "url": "https://chatgpt.com/download/"
+      }
+    ],
     "pricing": "freemium",
     "featured": true,
     "addedAt": "2026-09-01"
@@ -16,22 +30,124 @@
     "name": "Claude",
     "logo": "https://claude.ai/favicon.ico",
     "category": "llm",
-    "tags": ["chatbot", "coding", "assistant"],
-    "description": "Anthropic 出品的对话与编程助手。",
-    "url": "https://claude.ai",
+    "tags": [
+      "对话",
+      "长文档",
+      "编程"
+    ],
+    "description": "Anthropic 的 AI 助手，适合长文档分析、写作与编程协作。",
+    "url": "https://claude.ai/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://claude.ai/"
+      },
+      {
+        "label": "下载客户端",
+        "url": "https://claude.com/download"
+      }
+    ],
     "pricing": "freemium",
     "featured": true,
     "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "gemini",
+    "name": "Google Gemini",
+    "logo": "https://gemini.google/favicon.ico",
+    "category": "llm",
+    "tags": [
+      "多模态",
+      "搜索",
+      "写作"
+    ],
+    "description": "Google 的多模态 AI 助手，支持问答、内容创作与研究。",
+    "url": "https://gemini.google/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "deepseek",
+    "name": "DeepSeek",
+    "logo": "https://www.deepseek.com/favicon.ico",
+    "category": "llm",
+    "tags": [
+      "中文",
+      "推理",
+      "编程"
+    ],
+    "description": "深度求索的 AI 助手，支持中文问答、推理与编程；网页和 App 可免费使用，API 另计费。",
+    "url": "https://www.deepseek.com/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://chat.deepseek.com/"
+      },
+      {
+        "label": "下载 App",
+        "url": "https://download.deepseek.com/app/"
+      }
+    ],
+    "pricing": "free",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "doubao",
+    "name": "豆包",
+    "logo": "https://www.doubao.com/favicon.ico",
+    "category": "llm",
+    "tags": [
+      "中文",
+      "搜索",
+      "写作"
+    ],
+    "description": "字节跳动的 AI 助手，支持问答、搜索、写作与日常办公。",
+    "url": "https://www.doubao.com/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://www.doubao.com/chat/"
+      },
+      {
+        "label": "下载桌面版",
+        "url": "https://www.doubao.com/download/desktop"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "kimi",
+    "name": "Kimi",
+    "logo": "https://www.kimi.com/favicon.ico",
+    "category": "llm",
+    "tags": [
+      "中文",
+      "长文档",
+      "研究"
+    ],
+    "description": "月之暗面的 AI 助手，支持长文档阅读、资料研究和办公内容生成。",
+    "url": "https://www.kimi.com/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
   },
   {
     "slug": "github-copilot",
     "name": "GitHub Copilot",
     "logo": "https://github.com/favicon.ico",
     "category": "coding",
-    "tags": ["code-completion", "ide"],
-    "description": "GitHub 出品的 AI 编程助手。",
+    "tags": [
+      "代码补全",
+      "IDE",
+      "编程助手"
+    ],
+    "description": "GitHub 的 AI 编程助手，提供代码补全、代码问答与代理式开发能力。",
     "url": "https://github.com/features/copilot",
-    "pricing": "paid",
+    "pricing": "freemium",
     "featured": true,
     "addedAt": "2026-09-01"
   },
@@ -40,23 +156,73 @@
     "name": "Cursor",
     "logo": "https://cursor.com/favicon.ico",
     "category": "coding",
-    "tags": ["ide", "ai-editor"],
-    "description": "AI 原生的代码编辑器。",
-    "url": "https://cursor.com",
+    "tags": [
+      "代码编辑器",
+      "IDE",
+      "智能体"
+    ],
+    "description": "集成 AI 的代码编辑器，支持理解代码库、编辑代码与执行开发任务。",
+    "url": "https://cursor.com/",
+    "links": [
+      {
+        "label": "下载编辑器",
+        "url": "https://cursor.com/download"
+      },
+      {
+        "label": "访问官网",
+        "url": "https://cursor.com/"
+      }
+    ],
     "pricing": "freemium",
     "featured": true,
     "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "replit",
+    "name": "Replit",
+    "logo": "https://replit.com/favicon.ico",
+    "category": "coding",
+    "tags": [
+      "应用开发",
+      "云端IDE",
+      "网站生成"
+    ],
+    "description": "在浏览器中通过 AI 构建、运行和部署应用的开发平台。",
+    "url": "https://replit.com/",
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "bolt",
+    "name": "Bolt",
+    "logo": "https://bolt.new/favicon.ico",
+    "category": "coding",
+    "tags": [
+      "网站生成",
+      "全栈开发",
+      "原型"
+    ],
+    "description": "通过自然语言生成和修改网站、全栈应用与交互原型。",
+    "url": "https://bolt.new/",
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-26"
   },
   {
     "slug": "midjourney",
     "name": "Midjourney",
     "logo": "https://www.midjourney.com/favicon.ico",
     "category": "image",
-    "tags": ["image-generation"],
-    "description": "AI 图像生成工具。",
-    "url": "https://www.midjourney.com",
+    "tags": [
+      "文生图",
+      "视觉设计",
+      "插画"
+    ],
+    "description": "根据文字提示创作图像，适用于插画、概念设计与视觉探索。",
+    "url": "https://www.midjourney.com/",
     "pricing": "paid",
-    "featured": false,
+    "featured": true,
     "addedAt": "2026-09-01"
   },
   {
@@ -64,59 +230,383 @@
     "name": "Stable Diffusion",
     "logo": "https://stability.ai/favicon.ico",
     "category": "image",
-    "tags": ["image-generation", "open-source"],
-    "description": "开源的 AI 图像生成模型。",
-    "url": "https://stability.ai",
+    "tags": [
+      "文生图",
+      "模型",
+      "本地部署"
+    ],
+    "description": "可本地部署的图像生成模型；符合社区许可条件可免费使用，算力及托管服务另计。",
+    "url": "https://stability.ai/",
+    "links": [
+      {
+        "label": "访问官网",
+        "url": "https://stability.ai/"
+      },
+      {
+        "label": "查看模型许可",
+        "url": "https://stability.ai/license"
+      }
+    ],
     "pricing": "free",
     "featured": false,
     "addedAt": "2026-09-01"
   },
   {
-    "slug": "runway",
-    "name": "Runway",
-    "logo": "https://runwayml.com/favicon.ico",
-    "category": "video",
-    "tags": ["video-generation", "editing"],
-    "description": "AI 视频生成与编辑工具。",
-    "url": "https://runwayml.com",
+    "slug": "ideogram",
+    "name": "Ideogram",
+    "logo": "https://ideogram.ai/favicon.ico",
+    "category": "image",
+    "tags": [
+      "文生图",
+      "文字排版",
+      "海报"
+    ],
+    "description": "AI 图像生成工具，适用于带文字的海报、标识和创意视觉设计。",
+    "url": "https://ideogram.ai/",
     "pricing": "freemium",
     "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "leonardo-ai",
+    "name": "Leonardo.Ai",
+    "logo": "https://leonardo.ai/favicon.ico",
+    "category": "image",
+    "tags": [
+      "文生图",
+      "图像编辑",
+      "设计素材"
+    ],
+    "description": "提供 AI 图像生成、编辑与视觉素材创作的设计平台。",
+    "url": "https://leonardo.ai/",
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "remove-bg",
+    "name": "remove.bg",
+    "logo": "https://www.remove.bg/favicon.ico",
+    "category": "image",
+    "tags": [
+      "抠图",
+      "背景移除",
+      "图片处理"
+    ],
+    "description": "自动移除图片背景，支持人物、商品图片处理与批量工作流。",
+    "url": "https://www.remove.bg/",
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "runway",
+    "name": "Runway",
+    "logo": "https://runway.com/favicon.ico",
+    "category": "video",
+    "tags": [
+      "视频生成",
+      "图生视频",
+      "视频编辑"
+    ],
+    "description": "面向创作者的 AI 视频生成与编辑平台，支持图像和视频创作。",
+    "url": "https://runway.com/",
+    "links": [
+      {
+        "label": "开始创作",
+        "url": "https://app.runwayml.com/"
+      },
+      {
+        "label": "访问官网",
+        "url": "https://runway.com/"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
     "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "pika",
+    "name": "Pika",
+    "logo": "https://pika.art/favicon.ico",
+    "category": "video",
+    "tags": [
+      "视频生成",
+      "视频特效",
+      "图生视频"
+    ],
+    "description": "用于生成短视频和创意特效的 AI 工具；生成额度以当前积分套餐为准。",
+    "url": "https://pika.art/",
+    "pricing": "paid",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "kling-ai",
+    "name": "可灵 AI",
+    "logo": "https://kling.ai/favicon.ico",
+    "category": "video",
+    "tags": [
+      "文生视频",
+      "图生视频",
+      "视频生成"
+    ],
+    "description": "快手的 AI 创作平台，支持文字或图片生成视频及图像创作。",
+    "url": "https://kling.ai/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "jimeng",
+    "name": "即梦 AI",
+    "logo": "https://jimeng.jianying.com/favicon.ico",
+    "category": "video",
+    "tags": [
+      "中文",
+      "视频生成",
+      "图像生成"
+    ],
+    "description": "支持中文提示词、文生图与图生视频的 AI 创作工具。",
+    "url": "https://jimeng.jianying.com/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://jimeng.jianying.com/"
+      },
+      {
+        "label": "下载 iOS 版",
+        "url": "https://apps.apple.com/cn/app/id6503676563"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
   },
   {
     "slug": "elevenlabs",
     "name": "ElevenLabs",
     "logo": "https://elevenlabs.io/favicon.ico",
     "category": "audio",
-    "tags": ["tts", "voice"],
-    "description": "AI 语音合成与语音克隆。",
-    "url": "https://elevenlabs.io",
+    "tags": [
+      "语音合成",
+      "配音",
+      "语音克隆"
+    ],
+    "description": "提供 AI 语音合成、音色设计、语音克隆与多语言配音工具。",
+    "url": "https://elevenlabs.io/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "suno",
+    "name": "Suno",
+    "logo": "https://suno.com/favicon.ico",
+    "category": "audio",
+    "tags": [
+      "音乐生成",
+      "歌曲创作",
+      "作曲"
+    ],
+    "description": "根据文字描述或歌词生成歌曲与音乐，商用权益取决于订阅方案。",
+    "url": "https://suno.com/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "descript",
+    "name": "Descript",
+    "logo": "https://www.descript.com/favicon.ico",
+    "category": "audio",
+    "tags": [
+      "播客",
+      "音频编辑",
+      "转录"
+    ],
+    "description": "通过编辑转录文字剪辑音视频，支持播客制作与 AI 音频处理。",
+    "url": "https://www.descript.com/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://web.descript.com/"
+      },
+      {
+        "label": "下载客户端",
+        "url": "https://www.descript.com/download"
+      }
+    ],
     "pricing": "freemium",
     "featured": false,
-    "addedAt": "2026-09-01"
+    "addedAt": "2026-09-26"
   },
   {
     "slug": "notion-ai",
     "name": "Notion AI",
-    "logo": "https://www.notion.so/favicon.ico",
+    "logo": "https://www.notion.com/favicon.ico",
     "category": "office",
-    "tags": ["writing", "notes"],
-    "description": "Notion 内置的 AI 写作与协作助手。",
-    "url": "https://www.notion.so/product/ai",
+    "tags": [
+      "知识管理",
+      "写作",
+      "会议纪要"
+    ],
+    "description": "集成在 Notion 中的 AI 写作、知识检索和会议记录能力；持续使用需相应付费方案。",
+    "url": "https://www.notion.com/",
+    "links": [
+      {
+        "label": "访问官网",
+        "url": "https://www.notion.com/"
+      },
+      {
+        "label": "下载桌面版",
+        "url": "https://www.notion.com/desktop"
+      }
+    ],
     "pricing": "paid",
     "featured": false,
     "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "gamma",
+    "name": "Gamma",
+    "logo": "https://gamma.app/favicon.ico",
+    "category": "office",
+    "tags": [
+      "PPT",
+      "演示文稿",
+      "文档"
+    ],
+    "description": "通过自然语言生成演示文稿、文档与网页，并支持导出常用格式。",
+    "url": "https://gamma.app/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "dify",
+    "name": "Dify",
+    "logo": "https://dify.ai/favicon.ico",
+    "category": "agent",
+    "tags": [
+      "工作流",
+      "知识库",
+      "RAG"
+    ],
+    "description": "可视化搭建 AI 应用、知识库和智能体工作流，支持云端与自部署。",
+    "url": "https://dify.ai/",
+    "links": [
+      {
+        "label": "使用云端版",
+        "url": "https://cloud.dify.ai/"
+      },
+      {
+        "label": "自部署源码",
+        "url": "https://github.com/langgenius/dify"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "coze",
+    "name": "扣子",
+    "logo": "https://www.coze.cn/favicon.ico",
+    "category": "agent",
+    "tags": [
+      "中文",
+      "智能体",
+      "工作流"
+    ],
+    "description": "支持搭建智能体、连接工具与知识库，并完成办公和自动化任务。",
+    "url": "https://www.coze.cn/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
   },
   {
     "slug": "auto-gpt",
     "name": "AutoGPT",
     "logo": "https://agpt.co/favicon.ico",
     "category": "agent",
-    "tags": ["autonomous", "agent"],
-    "description": "自主 AI 智能体框架。",
-    "url": "https://agpt.co",
-    "pricing": "free",
+    "tags": [
+      "智能体",
+      "任务自动化",
+      "自部署"
+    ],
+    "description": "构建和运行自动化 AI 智能体的平台；云端付费，自部署需自行承担模型与算力费用。",
+    "url": "https://agpt.co/",
+    "links": [
+      {
+        "label": "访问官网",
+        "url": "https://agpt.co/"
+      },
+      {
+        "label": "自部署源码",
+        "url": "https://github.com/Significant-Gravitas/AutoGPT"
+      }
+    ],
+    "pricing": "paid",
     "featured": false,
     "addedAt": "2026-09-01"
+  },
+  {
+    "slug": "n8n",
+    "name": "n8n",
+    "logo": "https://n8n.io/favicon.ico",
+    "category": "agent",
+    "tags": [
+      "工作流",
+      "自动化",
+      "系统集成"
+    ],
+    "description": "连接应用与 AI 模型的工作流自动化平台；云端付费，也提供自部署版本。",
+    "url": "https://n8n.io/",
+    "pricing": "paid",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "perplexity",
+    "name": "Perplexity",
+    "logo": "https://www.perplexity.ai/favicon.ico",
+    "category": "other",
+    "tags": [
+      "AI搜索",
+      "研究",
+      "来源引用"
+    ],
+    "description": "结合网络检索与来源引用回答问题，适用于资料搜集与研究。",
+    "url": "https://www.perplexity.ai/",
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "deepl",
+    "name": "DeepL",
+    "logo": "https://www.deepl.com/favicon.ico",
+    "category": "other",
+    "tags": [
+      "翻译",
+      "文档翻译",
+      "多语言"
+    ],
+    "description": "AI 翻译工具，支持文本、文档翻译和多语言写作场景。",
+    "url": "https://www.deepl.com/",
+    "links": [
+      {
+        "label": "在线翻译",
+        "url": "https://www.deepl.com/en/translator"
+      },
+      {
+        "label": "访问官网",
+        "url": "https://www.deepl.com/"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": false,
+    "addedAt": "2026-09-26"
   }
 ]

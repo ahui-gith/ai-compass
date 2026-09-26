@@ -27,6 +27,9 @@ export default async function ProductPage({
   const { slug } = await params;
   const product = getProductBySlug(slug);
   if (!product) notFound();
+  const links = product.links?.length
+    ? product.links
+    : [{ label: "访问官网", url: product.url }];
 
   return (
     <main className="mx-auto w-full max-w-3xl px-4 py-10 sm:px-6">
@@ -79,16 +82,19 @@ export default async function ProductPage({
           )}
         </div>
 
-        <div className="border-t border-zinc-200 bg-zinc-50 p-6 sm:px-8 dark:border-zinc-800 dark:bg-zinc-900/50">
-          <a
-            href={product.url}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-white"
-          >
-            访问官网
-            <span aria-hidden>↗</span>
-          </a>
+        <div className="flex flex-wrap gap-3 border-t border-zinc-200 bg-zinc-50 p-6 sm:px-8 dark:border-zinc-800 dark:bg-zinc-900/50">
+          {links.map((link, index) => (
+            <a
+              key={`${link.url}-${index}`}
+              href={link.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 rounded-lg bg-zinc-900 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-white"
+            >
+              {link.label}
+              <span aria-hidden>↗</span>
+            </a>
+          ))}
         </div>
       </article>
     </main>
