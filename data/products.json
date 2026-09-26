@@ -608,5 +608,226 @@
     "pricing": "freemium",
     "featured": false,
     "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "qianwen",
+    "name": "千问",
+    "logo": "https://www.qianwen.com/favicon.ico",
+    "category": "llm",
+    "tags": [
+      "阿里",
+      "通义千问",
+      "Qwen",
+      "中文",
+      "写作",
+      "多模态"
+    ],
+    "description": "阿里的个人 AI 助手，支持对话问答、文档阅读、写作与办公内容生成。",
+    "url": "https://www.qianwen.com/",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://www.qianwen.com/"
+      },
+      {
+        "label": "下载 iOS 版",
+        "url": "https://apps.apple.com/cn/app/id6466733523"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "qwen",
+    "name": "Qwen 开放模型",
+    "logo": "https://qianwen.aliyun.com/favicon.ico",
+    "category": "llm",
+    "tags": [
+      "阿里",
+      "通义千问",
+      "开放权重",
+      "本地部署",
+      "多模态"
+    ],
+    "description": "阿里千问开放模型系列，可按模型许可下载与部署；本地算力及商业 API 费用另计。",
+    "url": "https://qianwen.aliyun.com/landing?family=qwen",
+    "links": [
+      {
+        "label": "模型介绍",
+        "url": "https://qianwen.aliyun.com/landing?family=qwen"
+      },
+      {
+        "label": "下载模型权重",
+        "url": "https://huggingface.co/Qwen"
+      },
+      {
+        "label": "API 接入文档",
+        "url": "https://help.aliyun.com/zh/model-studio/first-api-call-to-qwen"
+      }
+    ],
+    "pricing": "free",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "qwen-code",
+    "name": "Qwen Code",
+    "logo": "https://github.com/favicon.ico",
+    "category": "coding",
+    "tags": [
+      "阿里",
+      "千问",
+      "编程助手",
+      "开源",
+      "命令行"
+    ],
+    "description": "千问团队的开源 AI 编程工具，支持代码库理解与开发任务；客户端免费，模型调用费用另计。",
+    "url": "https://github.com/QwenLM/qwen-code",
+    "links": [
+      {
+        "label": "下载桌面版",
+        "url": "https://github.com/QwenLM/qwen-code/releases/tag/desktop-latest"
+      },
+      {
+        "label": "安装与使用文档",
+        "url": "https://qwenlm.github.io/qwen-code-docs/zh/users/overview/"
+      },
+      {
+        "label": "查看源码",
+        "url": "https://github.com/QwenLM/qwen-code"
+      }
+    ],
+    "pricing": "free",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "aliyun-bailian",
+    "name": "阿里云百炼",
+    "logo": "https://www.aliyun.com/favicon.ico",
+    "category": "agent",
+    "tags": [
+      "阿里",
+      "千问",
+      "模型API",
+      "智能体",
+      "知识库"
+    ],
+    "description": "阿里云的模型服务与 AI 应用开发平台，支持千问 API、知识库和智能体构建，云服务按规则计费。",
+    "url": "https://www.aliyun.com/product/bailian",
+    "links": [
+      {
+        "label": "进入控制台",
+        "url": "https://bailian.console.aliyun.com/"
+      },
+      {
+        "label": "访问官网",
+        "url": "https://www.aliyun.com/product/bailian"
+      },
+      {
+        "label": "模型计费说明",
+        "url": "https://help.aliyun.com/zh/model-studio/model-pricing"
+      }
+    ],
+    "pricing": "paid",
+    "featured": false,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "workbuddy",
+    "name": "WorkBuddy",
+    "logo": "https://www.workbuddy.cn/favicon.ico",
+    "category": "office",
+    "tags": [
+      "腾讯",
+      "办公助手",
+      "智能体",
+      "工作搭子",
+      "自动化"
+    ],
+    "description": "腾讯的 AI 办公工作台，可拆解任务、处理文件并调用工具，完成资料研究、内容制作与办公自动化。",
+    "url": "https://www.workbuddy.cn/",
+    "links": [
+      {
+        "label": "下载桌面版",
+        "url": "https://www.workbuddy.cn/work/"
+      },
+      {
+        "label": "下载手机版",
+        "url": "https://www.workbuddy.cn/app-download/"
+      },
+      {
+        "label": "访问官网",
+        "url": "https://www.workbuddy.cn/"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "codex",
+    "name": "Codex",
+    "logo": "https://openai.com/favicon.ico",
+    "category": "coding",
+    "tags": [
+      "OpenAI",
+      "编程智能体",
+      "代码审查",
+      "命令行",
+      "IDE"
+    ],
+    "description": "OpenAI 的 AI 编程工具，支持理解代码库、修改代码、运行测试与代码审查，提供桌面、网页和命令行入口。",
+    "url": "https://chatgpt.com/codex",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://chatgpt.com/codex"
+      },
+      {
+        "label": "桌面版使用指南",
+        "url": "https://learn.chatgpt.com/docs/app"
+      },
+      {
+        "label": "CLI 安装指南",
+        "url": "https://developers.openai.com/codex/cli/"
+      }
+    ],
+    "pricing": "freemium",
+    "featured": true,
+    "addedAt": "2026-09-26"
+  },
+  {
+    "slug": "claude-code",
+    "name": "Claude Code",
+    "logo": "https://claude.ai/favicon.ico",
+    "category": "coding",
+    "tags": [
+      "Anthropic",
+      "编程智能体",
+      "命令行",
+      "IDE",
+      "代码重构"
+    ],
+    "description": "Anthropic 的 AI 编程工具，可在代码库中编辑文件、运行命令与处理开发任务，通过相应订阅或 API 计费使用。",
+    "url": "https://claude.com/product/claude-code",
+    "links": [
+      {
+        "label": "使用网页版",
+        "url": "https://claude.ai/code"
+      },
+      {
+        "label": "下载桌面客户端",
+        "url": "https://claude.com/download"
+      },
+      {
+        "label": "CLI 安装指南",
+        "url": "https://code.claude.com/docs/en/overview"
+      }
+    ],
+    "pricing": "paid",
+    "featured": true,
+    "addedAt": "2026-09-26"
   }
 ]

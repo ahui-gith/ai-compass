@@ -138,4 +138,4 @@ git push gitee main    # 推 Gitee
 - [技术规范](specs/SPEC.md)
 - [架构设计](specs/ARCHITECTURE.md)
 - [数据模型与数据访问](specs/API.md)
-- [产品数据核实来源](specs/DATA-SOURCES.md)（30 款，核实于 2026-09-26）
+- [产品数据核实来源](specs/DATA-SOURCES.md)（37 款，核实于 2026-09-26）
