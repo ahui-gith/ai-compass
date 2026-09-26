@@ -87,6 +87,10 @@
       {
         "label": "下载 App",
         "url": "https://download.deepseek.com/app/"
+      },
+      {
+        "label": "开放平台",
+        "url": "https://platform.deepseek.com/usage"
       }
     ],
     "pricing": "free",
@@ -630,8 +634,8 @@
         "url": "https://www.qianwen.com/"
       },
       {
-        "label": "下载 iOS 版",
-        "url": "https://apps.apple.com/cn/app/id6466733523"
+        "label": "下载客户端（Windows / macOS）",
+        "url": "https://www.qianwen.com/download"
       }
     ],
     "pricing": "freemium",
@@ -640,33 +644,19 @@
   },
   {
     "slug": "qwen",
-    "name": "Qwen 开放模型",
-    "logo": "https://qianwen.aliyun.com/favicon.ico",
+    "name": "阿里云百炼",
+    "logo": "https://www.aliyun.com/favicon.ico",
     "category": "llm",
     "tags": [
       "阿里",
-      "通义千问",
-      "开放权重",
-      "本地部署",
-      "多模态"
+      "千问",
+      "模型API",
+      "智能体",
+      "知识库"
     ],
-    "description": "阿里千问开放模型系列，可按模型许可下载与部署；本地算力及商业 API 费用另计。",
-    "url": "https://qianwen.aliyun.com/landing?family=qwen",
-    "links": [
-      {
-        "label": "模型介绍",
-        "url": "https://qianwen.aliyun.com/landing?family=qwen"
-      },
-      {
-        "label": "下载模型权重",
-        "url": "https://huggingface.co/Qwen"
-      },
-      {
-        "label": "API 接入文档",
-        "url": "https://help.aliyun.com/zh/model-studio/first-api-call-to-qwen"
-      }
-    ],
-    "pricing": "free",
+    "description": "阿里云的模型服务与 AI 应用开发平台，支持千问 API、知识库和智能体构建，云服务按规则计费。",
+    "url": "https://bailian.console.aliyun.com/cn-beijing/model/market",
+    "pricing": "paid",
     "featured": false,
     "addedAt": "2026-09-26"
   },
@@ -699,38 +689,6 @@
       }
     ],
     "pricing": "free",
-    "featured": false,
-    "addedAt": "2026-09-26"
-  },
-  {
-    "slug": "aliyun-bailian",
-    "name": "阿里云百炼",
-    "logo": "https://www.aliyun.com/favicon.ico",
-    "category": "agent",
-    "tags": [
-      "阿里",
-      "千问",
-      "模型API",
-      "智能体",
-      "知识库"
-    ],
-    "description": "阿里云的模型服务与 AI 应用开发平台，支持千问 API、知识库和智能体构建，云服务按规则计费。",
-    "url": "https://www.aliyun.com/product/bailian",
-    "links": [
-      {
-        "label": "进入控制台",
-        "url": "https://bailian.console.aliyun.com/"
-      },
-      {
-        "label": "访问官网",
-        "url": "https://www.aliyun.com/product/bailian"
-      },
-      {
-        "label": "模型计费说明",
-        "url": "https://help.aliyun.com/zh/model-studio/model-pricing"
-      }
-    ],
-    "pricing": "paid",
     "featured": false,
     "addedAt": "2026-09-26"
   },

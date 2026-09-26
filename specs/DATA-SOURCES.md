@@ -1,6 +1,6 @@
 # 产品数据核实记录
 
-核实日期：2026-09-26。当前共 37 款，按主要场景归入现有八类；属于编辑精选，不代表流量排名。`data/products.json` 仍是唯一展示数据源，本文件仅记录来源。
+核实日期：2026-09-26。当前共 36 款，按主要场景归入现有八类；属于编辑精选，不代表流量排名。`data/products.json` 仍是唯一展示数据源，本文件仅记录来源。
 
 ## 收录口径
 
@@ -46,20 +46,21 @@
 | Perplexity | other | [官方页面](https://www.perplexity.ai/hub) |
 | DeepL | other | [官方页面](https://www.deepl.com/en/pro) |
 | 千问 | llm | [官网](https://www.qianwen.com/)、[开发者 App Store 页面](https://apps.apple.com/cn/app/id6466733523) |
-| Qwen 开放模型 | llm | [通义实验室](https://qianwen.aliyun.com/landing?family=qwen)、[官方模型库](https://huggingface.co/Qwen)、[Qwen3 仓库及许可](https://github.com/QwenLM/Qwen3) |
 | Qwen Code | coding | [官方仓库](https://github.com/QwenLM/qwen-code)、[中文文档](https://qwenlm.github.io/qwen-code-docs/zh/users/overview/)、[桌面版发布页](https://github.com/QwenLM/qwen-code/releases/tag/desktop-latest) |
-| 阿里云百炼 | agent | [产品页](https://www.aliyun.com/product/bailian)、[模型计费](https://help.aliyun.com/zh/model-studio/model-pricing)、[API 入门](https://help.aliyun.com/zh/model-studio/first-api-call-to-qwen) |
+| 阿里云百炼 | llm | [模型广场](https://bailian.console.aliyun.com/cn-beijing/model/market)、[模型计费](https://help.aliyun.com/zh/model-studio/model-pricing) |
 | WorkBuddy | office | [腾讯云产品介绍](https://cloud.tencent.com/product/workbuddy)、[官方定价文档](https://www.workbuddy.cn/docs/workbuddy/Pricing)、[桌面下载页](https://www.workbuddy.cn/work/)、[手机下载页](https://www.workbuddy.cn/app-download/) |
 
 ## 定价与入口说明
+
+- DeepSeek 按用户指定新增[开放平台](https://platform.deepseek.com/usage)入口，保留网页与 App 入口。此次三个地址来自用户确认，未登录实测。
 
 - 新增 Codex 与 Claude Code，均归入 `coding`，分别于 ChatGPT、Claude 对话产品之外单独收录。
 - Codex 依据 [OpenAI 官方定价文档](https://learn.chatgpt.com/docs/pricing)标 `freemium`；免费层受限且部分能力逐步开放，不代表网页、CLI 与所有模型都免费。入口依据[云端文档](https://learn.chatgpt.com/docs/cloud)、[桌面文档](https://learn.chatgpt.com/docs/app)、[CLI 文档](https://developers.openai.com/codex/cli/)。旧 developers.openai.com 的桌面与定价文档已重定向至 ChatGPT Learn，因此桌面按钮标为使用指南。
 - Claude Code 依据[官方产品页](https://claude.com/product/claude-code)标 `paid`，可使用相应订阅或按 API 用量计费，不沿用 Claude 对话产品的免费增值标签。[官方概览](https://code.claude.com/docs/en/overview)提供网页、CLI 与桌面入口；桌面使用 Claude 客户端中的 Code 功能。
 
 - 本次追加 5 项：千问消费端、Qwen 开放模型、Qwen Code、百炼开发平台与 WorkBuddy。模型与应用分开收录，不按模型版本重复铺设条目。
-- 千问 App 已有订阅内购，按免费增值标注，不采用早期发布时的“永久免费”表述。仅配置已核实的网页与 iOS 入口。
-- Qwen 开放模型的 `free` 指可按各模型许可下载权重；Qwen3 官方仓库明确 Apache 2.0，但不据此推断所有 Qwen 模型使用相同许可。商用 API 与本地算力另计。
+- 千问 App 已有订阅内购，按免费增值标注，不采用早期发布时的“永久免费”表述。按用户指定，下载入口改为[官方客户端下载页](https://www.qianwen.com/download)，涵盖 Windows / macOS。
+- 按用户要求将原 Qwen 开放模型条目改名为阿里云百炼，保留 qwen slug，并合并删除重复的 aliyun-bailian 条目；只保留指定模型广场官网入口。分类保留 llm，简介及定价同步采用百炼平台口径。原 /products/aliyun-bailian 详情地址不再生成。
 - Qwen Code 的 `free` 指 Apache 2.0 客户端软件，调用模型可能需要付费。桌面下载指向官方发布页，不指向易过期的版本安装包。
 - 百炼按 API 和云服务用途标 `paid`；新用户试用额度不当作长期免费层。
 - WorkBuddy 定价文档列出免费体验版的每月额度及付费订阅，按 `freemium` 标注；首页另有“限时免费”表述，免费权益是否持续需以后复查，不承诺永久免费。官网部分页面直接读取失败，使用搜索索引内容与腾讯云产品页交叉核实；未登录实测。
